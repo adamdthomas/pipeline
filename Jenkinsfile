@@ -3,10 +3,9 @@ pipeline{
 
 	stages {
 	    stage('Example Build') {
-    	   echo 'initialCommit'
+	    	steps {
+	    	    echo 'initialCommit'
+	    	}
     	}
-
 	}
-
-    
 }
